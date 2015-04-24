@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ">
+
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"> 
+
+<title>FpIndex</title> 
+
+<link rel="stylesheet" href="themes/fPdone.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+			
+</head>
+
+	<body>
+	<!-- Start of home page -->
+		<div data-role="page" id="home" data-theme="a">
+
+		<div data-role="header" >
+			<h1>EverythinG VinyL:)</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<a href="#ask" data-role="button" data-icon="shop">Order Now</a>
+		
+		<div style="width: 280px; height: 210px; margin: 0 auto;"> 
+			<iframe width="180" height="210"src="https://www.youtube.com/embed/0O86PLf8C4s" frameborder="0" allowfullscreen></iframe>
+		</div>
+			<a href="https://www.youtube.com/" rel="external" data-role="button" data-icon="video">Youtube.com</a>
+		</div><!-- /content -->
+
+		<div data-role="footer" data-id="myfooter" data-position="fixed">
+			<div class="controls" data-role="controlgroup" data-type="horizontal">
+			<a href="#contact" data-role="button" data-icon="phone">Contact</a>
+			<a href="#ask" data-role="button" data-icon="shop">order</a>
+		</div>
+		
+		</div><!-- /footer -->
+
+		</div><!-- /page -->
+
+	<!-- Start of contact page -->
+		<div data-role="page" id="contact" data-theme="a">
+
+		<div data-role="header">
+			<h1>EverythinG VinyL:)</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<a href="#ask" data-role="button" data-icon="shop">Order Now</a>
+			<ul data-role="listview" data-inset="true">
+				<li>Head Artist: Rey Kross</li>
+				<li><a href="mailto:everythingvinyl.com" >everythingvinyl.</a></li>
+				<li><a href="tel:+13863124154" >386)445-6000</a></li>
+				<li><a href="#address" data-rel="dialog" data-transition="pop">28 Pebble Stone, Palm Coast, Fl. 32164</a></li>
+			</ul>
+			<a href="https://www.youtube.com/" rel="external" data-role="button" data-icon="video">Youtube.com</a>	
+		</div><!-- /content -->
+
+		<div data-role="footer" data-id="myfooter" data-position="fixed">
+			<div class="controls" data-role="controlgroup" data-type="horizontal">
+			<a href="#home" data-role="button" data-icon="home">Home</a>
+			<a href="#contact" data-role="button" data-icon="phone">Contact</a>
+			<a href="#ask" data-role="button" data-icon="shop">Order</a>
+			</div>
+		</div><!-- /footer -->
+
+		</div><!-- /page -->
+	<!------------ Address page -->
+		<div data-role="page" id="address" data-dialog="true" data-theme="a">
+
+			<div data-role="header" data-theme="a">
+				<h1>EverythinG VinyL:)</h1>
+
+		<a href="#home" data-theme="a" class="ui-btn ui-shadow ui-corner-all ui-btn-right ui-icon-home ui-btn-icon-notext">home</a>
+
+			</div><!-- /header -->
+
+			<div role="main" class="ui-content">
+				<h2>28 Pebble Stone, Palm Coast, Fl. 32164</h2>
+
+		<p><img alt="map to library" src="http://maps.google.com/maps/api/staticmap?center= Palm Coast, Fl & zoom=17&size=310x310&markers=color:green|29.534818008997394, -81.21588699999995&mobile=true&sensor=false"/>
+		</p>
+				
+			</div><!-- /content -->
+
+		<div data-role="footer" data-id="myfooter" data-position="fixed" data-theme="a">
+			
+		<div class="controls" data-role="controlgroup" data-type="horizontal">
+		<a href="#home" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>			
+		<a href="#contact" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-contact">Contact</a>
+					
+		</div>		
+		</div>
+			</div><!-- /footer -->
+
+	<!-- Start of contact page -->
+		<div data-role="page" id="contact" data-theme="a">
+
+		<div data-role="header">
+			<h1>EverythinG VinyL:)</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<a href="#ask" data-role="button" data-icon="shop">Order Now</a>
+			<ul data-role="listview" data-inset="true">
+				<li>Head Artist: Rey Kross</li>
+				<li><a href="mailto:everythingvinyl.com" >everythingvinyl.</a></li>
+				<li><a href="tel:+13863124154" >386)445-6000</a></li>
+				<li><a href="#address" data-rel="dialog" data-transition="pop">28 Pebble Stone, Palm Coast, Fl. 32164</a></li>
+			</ul>
+			<a href="https://www.youtube.com/" rel="external" data-role="button" data-icon="video">Youtube.com</a>	
+		</div><!-- /content -->
+
+		<div data-role="footer" data-id="myfooter" data-position="fixed">
+			<div class="controls" data-role="controlgroup" data-type="horizontal">
+			<a href="#home" data-role="button" data-icon="home">Home</a>
+			<a href="#contact" data-role="button" data-icon="phone">Contact</a>
+			<a href="#ask" data-role="button" data-icon="shop">Order</a>
+			</div>
+		</div><!-- /footer -->
+
+	<!-- Start of order page -->
+		</div><!-- /page -->
+			<div data-role="page" id="ask" data-theme="a"> 
+		 
+			<div data-role="header">
+				<h1>EverythinG VinyL:)</h1>
+			</div><!-- /header -->
+			<a href="mailto:everythingvinyl.com" data-role="button" data-icon="shop">Order Now</a>
+			<p>Please send us an image by of vinyl you need cutting.</p>
+			<p><strong>Or</strong></p>
+			<p>You could use our photo app to take a photo of the product you need!</p>
+			<a href="photo" data-role="button" data-icon="shop">Photo Ordering</a>
+				
+		<div data-role="footer" data-id="myfooter" data-position="fixed"> 
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#home" data-role="button" data-icon="home">Home</a>
+					<a href="#contact" data-role="button" data-icon="phone">Contact</a>
+					<a href="#photo" data-role="button" data-icon="photo">Photo Ordering</a>
+				</div>
+		</div><!-- /footer --> 
+
+	<!-- Start of order page -->
+		</div><!-- /page -->
+		<div data-role="page" id="ask" data-theme="a"> 
+			<div data-role="header">
+			<h1>EverythinG VinyL:)</h1>
+		</div><!-- /header -->
+			<a href="mailto:everythingvinyl.com" data-role="button" data-icon="shop">Order Now</a>
+			<p>Please send us an image by of vinyl you need cutting.</p>
+			<h2><strong>Or</strong></h2>
+		
+			<p>You could use our photo app to take a photo of the product you need!</p>
+			<a href="#photo" data-role="button" data-icon="shop">Photo Ordering</a>
+		
+		<div data-role="footer" data-id="myfooter" data-position="fixed"> 
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#home" data-role="button" data-icon="home">Home</a>
+					<a href="#contact" data-role="button" data-icon="phone">Contact</a>
+					<a href="#photo" data-role="button" data-icon="camera">Photo Ordering</a>
+				</div>
+		</div><!-- /footer --> 
+		</div><!-- /page -->
+
+	<!-- Start of order page -->
+		</div><!-- /page -->
+		<div data-role="page" id="photo" data-theme="a"> 
+			
+			<div data-role="header">
+			<h1>EverythinG VinyL:)</h1>
+		</div><!-- /header -->
+			<h1>***Under Construction***<h1>
+			<div style="width: 280px; height: 210px; margin: 0 auto;"> 
+				<iframe width="180" height="210" src="https://www.youtube.com/embed/1IKux1av3mk" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<a href="mailto:everythingvinyl.com" data-role="button" data-icon="shop">Order Now</a>
+			
+		<div data-role="footer" data-id="myfooter" data-position="fixed"> 
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#home" data-role="button" data-icon="home">Home</a>
+					<a href="#contact" data-role="button" data-icon="phone">Contact</a>
+					<a href="#ask" data-role="button" data-icon="shop">Email Ordering</a>
+				</div>
+		</div><!-- /footer --> 
+		
+		</div><!-- /page -->
+			
+
+	</body>
+</html>
